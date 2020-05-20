@@ -11,11 +11,9 @@ import Education from './contents/Education';
 import Skills from './contents/Skills';
 import Contact from './contents/Contact';
 
-ReactDOM.render(<Router basename={process.env.PUBLIC_URL}>< App /></Router>); 
-
 function App() {
   return (
-    <Router>
+    <Router basename={`${process.env.PUBLIC_URL}/`}>
     <div className="App">
     <Navbar />
     <Route exact path="/">

@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet'
 
+const pagetitle = 'Jerry Blåfield - About'
 
 class About extends Component {
     render() {
         return (
+            <Helmet>
+                <title>{pagetitle}</title>
+            </Helmet>
             <div className="condiv">
             <h1 className="subtopic">About Me</h1>
             <h1>I'm Jerry Blåfield</h1>

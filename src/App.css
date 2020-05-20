@@ -21,8 +21,8 @@ body
 .App
 {
   display: flex;
-  width: 100%;
   min-height: 100vh;
+  min-width: 650px;
   background-image: url(img/needles.jpeg);
   background-size: cover;
 }
@@ -58,7 +58,8 @@ a:visited
 }
 .open 
 {  
-  min-height: 465px;
+  min-height: 365px;
+  min-width: 189.35px;
   background-color: #00000060;
   padding: 130px 0px 0px 0px;
   transition: all var(--secs);
