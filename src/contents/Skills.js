@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import { Helmet } from 'react-helmet'
+
+const pagetitle = 'Jerry Blåfield - Home'
 
 class Skills extends Component {
     constructor(props)
@@ -13,6 +16,9 @@ class Skills extends Component {
     render() {
         return (
             <div className="condiv skills">
+            <Helmet>
+                <title>{pagetitle}</title>
+            </Helmet>
             <h1 className="subtopic">My Skills</h1>
             <h2>Programming</h2>
             <ul>

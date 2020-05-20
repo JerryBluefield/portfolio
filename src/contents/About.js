@@ -6,6 +6,7 @@ const pagetitle = 'Jerry Blåfield - About'
 class About extends Component {
     render() {
         return (
+            <View>
             <Helmet>
                 <title>{pagetitle}</title>
             </Helmet>
@@ -20,6 +21,7 @@ class About extends Component {
                 <p>Challenging myself and getting out of my comfort zone really push me to better myself, which is why I'm always looking for that next challenge.</p>
             
             </div>
+            </View>
             )
         }
     }
