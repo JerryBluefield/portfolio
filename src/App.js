@@ -10,7 +10,7 @@ import About from './contents/About';
 import Education from './contents/Education';
 import Skills from './contents/Skills';
 import Contact from './contents/Contact';
-import Portfolio from './contents/Portfolio';
+import Portfolio from './contents/Projects';
 
 function App() {
   return (
@@ -23,8 +23,8 @@ function App() {
     <Route path="/about">
     <About />
     </Route>
-    <Route path="/portfolio">
-    <Portfolio />
+    <Route path="/projects">
+    <Projects />
     </Route>
     <Route path="/education">
     <Education />
