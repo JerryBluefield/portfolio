@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet'
 
-const pagetitle = 'Jerry Blåfield - Portfolio'
+const pagetitle = 'Jerry Blåfield - Projects'
 
-class Portfolio extends Component {
+class Projects extends Component {
     render() {
         return (
             <div className="condiv">
@@ -43,5 +43,5 @@ class Portfolio extends Component {
         }
     }
     
-export default Portfolio
+export default Projects
     
