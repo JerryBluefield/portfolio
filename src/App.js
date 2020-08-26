@@ -10,7 +10,7 @@ import About from './contents/About';
 import Education from './contents/Education';
 import Skills from './contents/Skills';
 import Contact from './contents/Contact';
-import Portfolio from './contents/Projects';
+import Projects from './contents/Projects';
 
 function App() {
   return (

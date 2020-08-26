@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet'
 
-const pagetitle = 'Jerry Blåfield - Projects'
+const pagetitle = 'Jerry Blåfield - Portfolio'
 
 class Projects extends Component {
     render() {
