@@ -8,7 +8,7 @@ class Skills extends Component {
     {
         super(props);
         this.state={
-            'myskills':['C#', 'HTML','CSS','JS','PHP','REACT JS','MySQL'],
+            'myskills':['C#', 'Kotlin', 'HTML','CSS','JS','PHP','REACT JS', 'React Native', 'MySQL'],
             'mylanguages':['English','Finnish','Swedish','Japanese']
         };
     }
@@ -26,7 +26,7 @@ class Skills extends Component {
                 return <li>{value}</li>
             })}
             </ul>
-            <h2>Languages</h2>
+            <h2>Spoken Languages</h2>
             <ul>
             {this.state.mylanguages.map((value)=>{
                 return <li>{value}</li>

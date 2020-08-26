@@ -13,28 +13,29 @@ class Projects extends Component {
                 <div id="content">
         
         <div class="textbox">
-    <h1>Portfolio</h1>
-            <p>Suurin osa kokemuksistani koostuvat ammatikorkeakoulun kursseilla tehdyistä harjoitustöistä, sekä projekteista. Kursseilla on monesti keskitytty vain perusteisiin ja aikaa on itse töiden tekemisiin ollut vähän.</p>
-            <h2>Ruined Sky tasohyppelypeli</h2>
-            <p></p>
-            <p>Phaser 3:lla, kolmen hengen ryhmässä tehty tasohyppelypeli, jossa php:lla toteutettu rekisteröityminen ja pisteiden tallentaminen. Peli tehtiin web-ohjelmoinnin harjoitustyönä joten php:lla toteutettu back end oli kurssin osalta tärkeämmässä osassa. </p>
-            <div class="gallery">
-                <a href="img/ruinedskygif.gif" data-lightbox="group" data-title="Ruined Sky"><img src="img/ruinedskygif.gif" class="mini_img" alt="Ruined Sky"/></a>
-                </div>
-            <p><a href="https://student.labranet.jamk.fi/~K9105/phaser/harkkatyo/mainpage.php" alt="Linkki peliin">Linkki peliin</a></p>
-    
-    <h2>Grappler Unity 3D peli</h2>
-    <p>Koodaukseen keskittyvällä peliohjelmointi kurssilla pienessä ajassa tehty koukkupelin prototyyppi. Peliprototyypin tein yksin kurssin viimeisenä työnä muiden kurssien ohella vain viikon aikana. Pelin core loop on paikallaan mutta peli olisi vaatinut vielä paljon hienosäätöä ollakseen pelaajalle viihdyttävä. Työn pääideana olikin oppia käyttämään Unity 3D:tä, eikä niinkään tuottaa valmista peliä.</p>
-    <div class="gallery">
-                <a href="img/grapplegame.gif" data-lightbox="group" data-title="Grapple game"><img src="img/grapplegame.gif" class="mini_img" alt="Grappler game"/></a> 
-                </div>
-   <h2>Kotisivut</h2>
-            <p>Nämä kotisivut olen tietysti myös tehnyt itse, aloittaen web-ohjelmoinnin perusteet kurssilla ja työstäen tarvittaessa sivuja eteenpäin. Sivujen täyttä uusimista olen suunnittellut lähitulevaisuudessa käyttäen javascript kirjastoa, jolla saisin sivuista helpommin ylläpidettävät ja skaalautuvat.</p>
-            
-    <h2>Muut projektit</h2>
-            <p>Tällä hetkellä on menossa viiden hengen ryhmässä pelikehitys kurssilla bullet hell tyyppinen avaruuspeli Unity 2D:llä. Aikaisempina projekteina on pienien kurssiharjoitusten lisäksi suurempia töitä esim. tietokantoihin ja olio-ohjelmointiin keskittyviltä kursseilta, sekä ohjelmistotuotannon kokonaisprosessiin keskittyvältä kurssilta jossa 4 hengen ryhmässä teimme toimeksiantajalle tuoteprototyypin. Projektissa keskityin ryhmän verkkosivujen ja tuotteen käyttöliittymän kehitykseen.</p>
-            <div class="gallery">
-                <a href="img/webpage.PNG" data-lightbox="group" data-title="Webpage"><img src="img/webpagemini.jpg" class="mini_img" alt="webpage"/></a>
+
+        <h1>Portfolio</h1>
+                <p>Most of my experience comes from assignments done in the University courses and projects. The courses most often only went into basics of a technology so the technologies I know better I've learned from projects both at school and in my free time.</p>
+                <h2>Ruined Sky platformer game</h2>
+                <p></p>
+                <p>A game prototype made in Phaser 3 with registration and scorekeeping made in PHP. Made in a three person group as a final assignment for a course.</p>
+                <div class="gallery">
+                    <a href="kuvat/ruinedskygif.gif" data-lightbox="group" data-title="Ruined Sky"><img src="kuvat/ruinedskygif.gif" class="mini_img" alt="Ruined Sky"/></a>
+                    </div>
+                <p><a href="https://student.labranet.jamk.fi/~K9105/phaser/harkkatyo/mainpage.php" alt="Linkki to the game">Link to the game</a></p>
+        
+        <h2>Grappler Unity 3D game prototype</h2>
+        <p>This game prototype was made in a game programming course which mostly focused on coding and getting the core loop of the game together.</p>
+        <div class="gallery">
+                    <a href="kuvat/grapplegame.gif" data-lightbox="group" data-title="Grapple game"><img src="kuvat/grapplegame.gif" class="mini_img" alt="Grapple game"/></a> 
+                    </div>
+       <h2>My home page</h2>
+                <p>Of course I have also made these pages myself, starting in a course and continuing development afterwards. I have a new website under development using React JS to create a more easily expandable and manageable site.</p>
+                
+        <h2>Other projects</h2>
+                <p>I have also participated in several course projects for example making a working prototype of an application for choosing what clothes to wear for a customer provided by the school.</p>
+                <div class="gallery">
+                    <a href="kuvat/webpage.PNG" data-lightbox="group" data-title="Webpage image"><img src="kuvat/webpagemini.jpg" class="mini_img" alt="webpage image"/></a>
                 </div>
         </div>
     </div>
