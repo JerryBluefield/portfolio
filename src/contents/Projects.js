@@ -15,14 +15,14 @@ class Projects extends Component {
         <div class="textbox">
 
         <h1>Portfolio</h1>
-                <p>Most of my experience comes from assignments done in the University courses and projects. The courses most often only went into basics of a technology so the technologies I know better I've learned from projects both at school and in my free time.</p>
+                <p>Most of my experience comes from assignments done in the University courses and my game development internship at Zaibatsu Interactive.</p>
                 <h2>Ruined Sky platformer game</h2>
                 <p></p>
                 <p>A game prototype made in Phaser 3 with registration and scorekeeping made in PHP. Made in a three person group as a final assignment for a course.</p>
                 <div class="gallery">
                     <a href="kuvat/ruinedskygif.gif" data-lightbox="group" data-title="Ruined Sky"><img src="kuvat/ruinedskygif.gif" class="mini_img" alt="Ruined Sky"/></a>
                     </div>
-                <p><a href="https://student.labranet.jamk.fi/~K9105/phaser/harkkatyo/mainpage.php" alt="Linkki to the game">Link to the game</a></p>
+                <p><a href="https://student.labranet.jamk.fi/~K9105/phaser/harkkatyo/mainpage.php" alt="Link to the game">Link to the game</a></p>
         
         <h2>Grappler Unity 3D game prototype</h2>
         <p>This game prototype was made in a game programming course which mostly focused on coding and getting the core loop of the game together.</p>
