@@ -14,8 +14,8 @@ class Home extends Component {
                 <Helmet>
                 <title>{pagetitle}</title>
                 </Helmet>
-                    <img src={profilepic} className="profilepic" alt="faceportrait.jpg"></img>
-                    <ReactTypingEffect className="typingeffect" text={['I am Jerry Blåfield', 'Welcome', 'Find out more using the menu and links']} speed={50} eraseDelay={700}/>
+                    <img src={profilepic} className="profilepic" alt="profilephoto2024.jpg"></img>
+                    <ReactTypingEffect className="typingeffect" text={['I am Jerry Blåfield', 'Welcome to my portfolio', 'Find out more using the menu and links']} speed={55} eraseDelay={700}/>
                     <Social></Social>
             </div>
             )
