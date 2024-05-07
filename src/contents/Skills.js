@@ -8,7 +8,7 @@ class Skills extends Component {
     {
         super(props);
         this.state={
-            'myskills':['C#', 'Kotlin', 'HTML','CSS','JS','PHP','REACT JS', 'React Native', 'MySQL'],
+            'myskills':['C#', 'Python', 'HTML','CSS','JS','PHP','REACT JS', 'React Native', 'MySQL'],
             'mylanguages':['English','Finnish','Swedish','Japanese']
         };
     }
