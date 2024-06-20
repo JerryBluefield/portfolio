@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactTypingEffect from 'react-typing-effect';
-import profilepic from '../img/faceportrait.png';
+import profilepic from '../img/profilephoto2024.jpg';
 import Social from '../components/Social'
 import { Helmet } from 'react-helmet'
 
@@ -15,7 +15,7 @@ class Home extends Component {
                 <title>{pagetitle}</title>
                 </Helmet>
                     <img src={profilepic} className="profilepic" alt="profilephoto2024.jpg"></img>
-                    <ReactTypingEffect className="typingeffect" text={['I am Jerry Blåfield', 'Welcome to my portfolio', 'Find out more using the menu and links']} speed={55} eraseDelay={700}/>
+                    <ReactTypingEffect className="typingeffect" text={['I am Jerry Blåfield', 'Welcome to my portfolio', 'Find out more using the menu and links']} speed={55} eraseDelay={700} eraseSpeed={55}/>
                     <Social></Social>
             </div>
             )
