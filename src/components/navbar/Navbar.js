@@ -29,7 +29,7 @@ class Navbar extends Component {
         let navOpen = this.state.closed ? 'open' : 'closed';
 
         return (
-            <div className='navigation'>
+            <div className='navigation' style={{position:"fixed"}}>
                 <div id='icon' className='icon'
                     onClick={this.toggleSidebar} >
                     |||

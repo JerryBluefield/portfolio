@@ -11,6 +11,7 @@ import Education from './contents/Education';
 import Skills from './contents/Skills';
 import Contact from './contents/Contact';
 import Projects from './contents/Projects';
+import Work from './contents/Work';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
     </Route>
     <Route path="/skills">
     <Skills />
+    </Route>
+    <Route path="/work">
+    <Work />
     </Route>
     <Route path="/contact">
     <Contact />
