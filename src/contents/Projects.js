@@ -2,13 +2,8 @@ import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import ruinedsky from '../img/ruinedskygif.gif';
 import grapplergame from '../img/grapplegame.gif';
-import webpagemini from '../img/webpagemini.jpg';
 
 const pagetitle = 'Jerry Blåfield - Portfolio'
-const otherprojects = [
-    '',
-    'Making a working website for a podcast company with working databases and localization options.'
-  ];
 
 class Projects extends Component {
     render() {
@@ -19,7 +14,7 @@ class Projects extends Component {
                 </Helmet>
                 <div id="content">
         
-        <div class="textbox">
+        <div className="textbox">
 
         <h1>Portfolio</h1>
                 <p>Most of my experience comes from my game development internship at Zaibatsu Interactive and assignments in university courses.</p>
@@ -30,24 +25,24 @@ class Projects extends Component {
                 <h2>Ruined Sky platformer game</h2>
                 <p></p>
                 <p>A game prototype made in Phaser 3 with registration and scorekeeping made in PHP. Made in a three person group as a final assignment for a course.</p>
-                <div class="gallery">
-                    <a href="kuvat/ruinedskygif.gif" data-lightbox="group" data-title="Ruined Sky"><img src={ruinedsky} class="mini_img" alt="Ruined Sky"/></a>
+                <div className="gallery">
+                    <a href="kuvat/ruinedskygif.gif" data-lightbox="group" data-title="Ruined Sky"><img src={ruinedsky} className="mini_img" alt="Ruined Sky"/></a>
                     </div>
         
         <h2>Grappler Unity 3D game prototype</h2>
         <p>This game prototype was made in a game programming course which mostly focused on coding and getting the core loop of the game together.</p>
-        <div class="gallery">
-                    <a href="kuvat/grapplegame.gif" data-lightbox="group" data-title="Grapple game"><img src={grapplergame} class="mini_img" alt="Grapple game"/></a> 
+        <div className="gallery">
+                    <a href="kuvat/grapplegame.gif" data-lightbox="group" data-title="Grapple game"><img src={grapplergame} className="mini_img" alt="Grapple game"/></a> 
                     </div>
        <h2>My home page</h2>
                 <p>Of course I have also made these pages myself, starting in a course and continuing development afterwards. I have a new website under development using React JS to create a more easily expandable and manageable site.</p>
                 
         <h2>Other projects</h2>
                 <p>I have also participated in several other projects which include:</p>
-                <p><ul>
+                <ul>
                     <li>Building a prototype of an app where the user can choose different outfits depending on the current temperature and weather conditions which were base on a forecast API.</li>
                     <li>Making a working website for a podcast company with working databases and localization options.</li>    
-                        </ul></p>
+                        </ul>
         </div>
     </div>
             </div>
