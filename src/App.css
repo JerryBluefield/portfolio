@@ -24,7 +24,7 @@ body
   min-height: 100vh;
   min-width: 650px;
   background-image: url(img/needles.jpeg);
-  background-size: cover;
+  background-size: 100% auto;
 }
 a:visited
 {

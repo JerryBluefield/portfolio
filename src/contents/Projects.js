@@ -50,14 +50,16 @@ class Projects extends Component {
                     <a href={grapplergame} data-lightbox="group" data-title="Grapple game"><img src={grapplergame} className="mini_img" alt="Grapple game"/></a> 
                     </div>
        <h2>My home page</h2>
-                <p>I have also made this portfolio website myself. I recently moved this whole project to React JS deployed in GitHub Pages to create a more easily expandable and manageable site, which is not dependent on paid services.</p>
+                <p>I have also made this portfolio website myself. I recently moved this whole project to React JS and deployed in GitHub Pages to create a more easily expandable and manageable site, which is not dependent on paid services.</p>
                 
         <h2>Other projects</h2>
+            <p>
                 <p>I have also participated in several other projects which include but are not limited to:</p>
-                <ul>
+                <p><ul>
                     <li>Building a prototype of an app where the user can choose different outfits depending on the current temperature and weather conditions which were base on a forecast API.</li>
                     <li>Making a working website prototype for a company which specialized in localizing foreign content for a global audience. The site was connected to their databases and included audio playback functions with full localization options.</li>    
-                        </ul>
+                        </ul></p>
+            </p>
         </div>
     </div>
             </div>
